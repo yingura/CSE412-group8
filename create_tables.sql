@@ -9,7 +9,7 @@ CREATE TABLE album (
 	album_name varchar(255) NOT NULL,
 	album_cover varchar(255) NOT NULL,
 	release_date varchar(255) NOT NULL,
-	a_artist_name varchar(255) NOT NULL,
+	a_artist_name varchar(255) NOT NULL
 );
 
 CREATE TABLE artist (
