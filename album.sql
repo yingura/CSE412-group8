@@ -3,7 +3,6 @@ INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('BT
 INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('BTS','https://i.scdn.co/image/ab67616d0000b2733deb4b0115410a85afe31c29','BE','2020-11-20');
 INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('Gen Hoshino','https://i.scdn.co/image/ab67616d0000b27302a856097c809fb56c23cfb2','POP VIRUS','2018-12-19');
 INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('Taylor Swift','https://i.scdn.co/image/ab67616d0000b27394e71ca5acea8203c4aa120c','Midnights','2022-10-21');
-INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('Linkin Park','https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a','Hybrid Theory (Bonus Edition)','2000-10-24');
 INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('Linkin Park','https://i.scdn.co/image/ab67616d0000b273b4ad7ebaf4575f120eb3f193','Meteora','2003-03-24');
 INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('Linkin Park','https://i.scdn.co/image/ab67616d0000b27346e207de66ba06422897f769','Minutes to Midnight','2007-05-14');
 INSERT INTO album(a_artist_name,album_cover,album_name,release_date) VALUES ('Linkin Park','https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a','Hybrid Theory (Bonus Edition)','2000-10-24');
