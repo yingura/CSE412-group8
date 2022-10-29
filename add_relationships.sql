@@ -25,6 +25,12 @@ ADD FOREIGN KEY (s_album_name) references album;
 
 COMMIT WORK;
 
+--For table users
+ALTER TABLE users
+ADD PRIMARY KEY (u_uid);
+
+COMMIT WORK;
+
 --For table lib
 ALTER TABLE lib
 ADD FOREIGN KEY (l_song_title) references song;
@@ -35,13 +41,7 @@ ADD FOREIGN KEY (l_artist_name) references artist;
 ALTER TABLE lib
 ADD FOREIGN KEY (l_album_name) references album;
 
-COMMIT WORK;
-
---For table users
-ALTER TABLE users
-ADD FOREIGN KEY (uid) references lib;
-
-ALTER TABLE users
-ADD PRIMARY KEY (u_uid);
+ALTER TABLE lib
+ADD FOREIGN KEY (uid) references users;
 
 COMMIT WORK;
